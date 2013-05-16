@@ -78,7 +78,19 @@
     <li>Developing and using a ubiquitous language</li>
   </ul>
 
-  <p><i>Thanks Mat Wynne!</i></p>
+  <p><i>Thanks Matt Wynne!</i></p>
+</section>
+
+<section class="slide">
+  <h2>Red-Green-Refactor</h2>
+
+  <ol>
+    <li>RED: Create a failing spec</li>
+    <li>GREEN: Implement the functionality to make it pass</li>
+    <li>REFACTOR the solution if necessary (spec should still be green)</li>
+  </ol>
+
+  <p><i></i><a href="http://www.jamesshore.com/Blog/Red-Green-Refactor.html">http://www.jamesshore.com/Blog/Red-Green-Refactor.html</a></i></p>
 </section>
 
 <section class="slide">
@@ -89,11 +101,12 @@
   <h2>Exercise: Bowling Score Calculator</h2>
 
   <ul>
-    <li>A gutter game score is 0</li>
-    <li>A game of all 1s scores a 20</li>
-    <li>A game with 1 spare scores a 16</li>
-    <li>A game with 1 strike scores a 24</li>
-    <li>A perfect game scores 300</li>
+    <li>A game with no frames scores a 0</li>
+    <li>A gutter game score is 0 (20 rolls of 0)</li>
+    <li>A game of all 1s scores a 20 (20 rolls of 1)</li>
+    <li>A game with 1 spare (e.g. 3 + 7) followed by a 3 scores a 16</li>
+    <li>A game with 1 strike and a 7 scores a 24</li>
+    <li>A perfect game (12 stikes) scores 300</li>
   </ul>
 
 </section>
@@ -106,10 +119,6 @@
     <li>Integration</li>
     <li>Feature / Acceptance</li>
   </ul>
-</section>
-
-<section class="slide">
-  <h1>Exercise: Outside In with Rails and Capybara</h1>
 </section>
 
 <section class="slide">
@@ -153,9 +162,9 @@
     <li><a href="https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf">https://speakerdeck.com/skmetz/magic-tricks-of-testing-railsconf</a></li>
     <li><a href="http://www.growing-object-oriented-software.com/">http://www.growing-object-oriented-software.com/</a></li>
     <li><a href="http://betterspecs.org/">http://betterspecs.org/</a></li>
+    <li><a href="http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata">http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata</a></li>
   </ul>
 </section>
-
 
 <!-- End slides. -->
 
