@@ -59,7 +59,7 @@
 <section class="slide">
   <h2>Why write specs first?</h2>
 
-  <ul class='slide'>
+  <ul class="slide">
     <li>Encourages writing code that is easily tested</li>
     <li>Reduces dependencies (coupling)</li>
     <li>It influences the design of the code for the better: we write better code when it's test-driven</li>
@@ -68,9 +68,17 @@
 </section>
 
 <section class="slide">
-  <h2>TDD versus BDD</h2>
+  <h2>Test Driven versus Behavior Driven</h2>
 
-  <p></p>
+  <p>BDD builds upon TDD by formalising the good habits of the best TDD practitioners.</p>
+
+  <ul>
+    <li>Working outside-in, starting from a business or organisational goal</li>
+    <li>Using examples to clarify requirements</li>
+    <li>Developing and using a ubiquitous language</li>
+  </ul>
+
+  <p><i>Thanks Mat Wynne!</i></p>
 </section>
 
 <section class="slide">
@@ -78,14 +86,17 @@
 </section>
 
 <section class="slide">
-  <h1>Exercise: Outside In with Rails and Capybara</h1>
+  <h2>Kinds of tests</h2>
+
+  <ul>
+    <li>Unit</li>
+    <li>Integration</li>
+    <li>Feature / Acceptance</li>
+  </ul>
 </section>
 
 <section class="slide">
-  <h2>Can I write code without test-driving it?</h2>
-
-  <p>Yes, when you're "spiking" on something to understand how it works or decide if it's something you want to use.</p>
-  <p>When you're done spiking, start over and test-drive the production implementation.</p>
+  <h1>Exercise: Outside In with Rails and Capybara</h1>
 </section>
 
 <section class="slide">
@@ -100,6 +111,25 @@
     <li>Deploy to a staging environment</li>
   </ol>
 </section>
+
+<section class="slide">
+  <h2>Can I write code without test-driving it?</h2>
+
+  <p>Yes, when you're "spiking" on something to understand how it works or decide if it's something you want to use.</p>
+  <p>When you're done spiking, start over and test-drive the production implementation.</p>
+</section>
+
+<section class="slide">
+  <h2>Common pitfalls</h2>
+
+  <ol>
+    <li>Treating specs like 2nd class citizens</li>
+    <li>Testing the same thing multiple times</li>
+    <li>Focusing on coverage (the #) not the quality of coverage</li>
+    <li>Slow running specs</li>
+  </ol>
+</section>
+
 
 <section class="slide">
   <h2>References</h2>
