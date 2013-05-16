@@ -4,8 +4,8 @@
 
 img {
   position: absolute;
-  bottom: 15px;
-  left: 47px;
+  bottom: 13px;
+  left: 80px;
   z-index:999;
 }
 
@@ -17,6 +17,8 @@ img {
 .deck-container .slide {
   background: #fff;
 }
+
+
 .deck-container .slide h1 {
   color: #a0a2a5;
 }
